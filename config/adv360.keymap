@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1         &kp F2        &kp F3      &kp F4         &kp F5         &kp F6                    &none                                                      &none         &kp F7            &kp F8               &kp F9             &kp F10  &kp F11  &kp F12
- &trans  &kp LS(EQUAL)     &kp GRAVE  &kp LS(N7)  &kp RA(MINUS)  &kp LS(GRAVE)            &kp RA(GRAVE)                                                  &kp PSCRN  &kp LS(EQUAL)  &kp LS(LG(LEFT))    &kp LS(LG(RIGHT))  &macro_ctl_alt_sup   &trans   &trans
- &trans     &kp LS(N1)     &kp MINUS  &kp LS(N3)     &kp LS(N2)      &kp RA(Q)                    &mo 1  &trans  &trans                  &trans  &trans      &mo 3         &trans     &macro_quotes       &macro_dquotes       &macro_braces   &trans   &trans
- &trans      &kp EQUAL  &kp RA(RBKT)  &kp LS(N4)   &kp LS(LBKT)     &kp LS(N5)                                   &trans                  &trans                            &trans     &macro_parens  &macro_less_greater     &macro_brackets   &trans   &trans
- &trans  &kp LS(MINUS)    &kp LS(N6)      &trans         &trans                                  &trans  &trans  &trans                  &trans  &trans     &trans                           &trans               &trans              &trans   &trans   &trans
+ &kp F1  &kp F2            &kp F3               &kp F4              &kp F5  &kp F6             &none                                                      &none         &kp F7         &kp F8        &kp F9        &kp F10     &kp F11     &kp F12
+ &trans   &none  &kp LS(LG(LEFT))    &kp LS(LG(RIGHT))  &macro_ctl_alt_sup   &none             &none                                                  &kp PSCRN  &kp LS(EQUAL)     &kp LS(N1)     &kp EQUAL  &kp LS(MINUS)   &kp GRAVE   &kp RA(Q)
+ &trans   &none     &macro_quotes       &macro_dquotes       &macro_braces   &none             &mo 1  &trans  &trans                  &trans  &trans      &mo 3     &kp LS(N7)  &kp RA(MINUS)     &kp MINUS   &kp RA(RBKT)  &kp LS(N3)  &kp LS(N4)
+ &trans   &none     &macro_parens  &macro_less_greater     &macro_brackets   &none                            &trans                  &trans                     &kp LS(GRAVE)     &kp LS(N2)  &kp LS(LBKT)  &kp RA(GRAVE)  &kp LS(N5)  &kp LS(N6)
+ &trans   &none             &none      &kp LC(LS(TAB))         &kp LC(TAB)                    &trans  &trans  &trans                  &trans  &trans     &trans                        &trans        &trans         &trans      &trans      &trans
             >;
         };
 
