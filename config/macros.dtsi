@@ -1,6 +1,6 @@
-macro_less_greater: macro_less_greater{
+macro_less: macro_less{
 compatible = "zmk,behavior-macro";
-label = "macro_less_greater";
+label = "macro_less";
 #binding-cells = <0>;
 bindings = <&kp NON_US_BSLH>, <&kp LS(NON_US_BSLH)>, <&kp LEFT>;
 };
